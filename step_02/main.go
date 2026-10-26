@@ -35,8 +35,8 @@ func ExtractLog(inputFilename string, start, end time.Time) ([]string, error) {
 	return logs, nil
 }
 
-func main() {
-	start, _ := time.Parse("02.01.2006", "17.12.2022")
-	end, _ := time.Parse("02.01.2006", "20.12.2022")
-	fmt.Println(ExtractLog("new_file.txt", start, end))
-}
+// func main() {
+// 	start, _ := time.Parse("02.01.2006", "17.12.2022")
+// 	end, _ := time.Parse("02.01.2006", "20.12.2022")
+// 	fmt.Println(ExtractLog("new_file.txt", start, end))
+// }
